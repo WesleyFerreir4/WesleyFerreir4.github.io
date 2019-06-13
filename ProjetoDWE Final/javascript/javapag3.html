@@ -1,0 +1,122 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>JavaScript - Praticando</title>
+		<meta charset="utf-8"/>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="../Projeto.css"/>
+		<meta name="author" content="Wesley Ferreira de Oliveira"/>
+		<meta name="description" content="Projeto final de DWE"/>
+		<meta name="keywords" content="projeto, javascript, dwe, fauna"/>
+		<meta name="generator" content="notepad++"/>
+	</head>
+
+	<body class="javabody">
+		<header>
+			<h1 class="javaheader">JS NA PRATICA</h1>
+		</header>
+		<nav class="javamenu">
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="#">JAVASCRIPT</a>
+					<ul>
+						<li><a href="javapag1.html">O que é?</a></li>
+						<li><a href="javapag2.html">Derivados</a></li>
+						<li><a href="javapag3.html">JS na prática</a></li>
+					</ul>
+				</li>
+				<li><a href="#">RESGATE DA FAUNA SILVESTRE</a>
+					<ul>
+						<li><a href="../resgate-fauna/faunapag1.html">Fauna Silvestre: O que é?</a></li>
+						<li><a href="../resgate-fauna/faunapag2.html">Preservação e Importância</a></li>
+						<li><a href="../resgate-fauna/faunapag3.html">ONGs e Projetos</a></li>
+					</ul>
+				</li>
+				<li><a href="#javafooter">LINKS</a></li>
+			</ul>
+		</nav>
+
+		<main id="javapag">
+			<h1>
+				EXEMPLO 1
+			</h1>
+			<h3>
+				Link com pop-up em JavaScript que abre uma página selecionada pelo desenvolvedor.
+			</h3>
+			</br>
+			<a href="http://portal.ifspguarulhos.edu.br/" onclick="NovaJanela(this.href,'nomeJanela','820','560','yes');return false">Pop-up com JavaScript</a>
+			<h1>
+				EXEMPLO 2
+			</h1>
+			<h3>
+				Pop-up na parte superior pedindo confirmação para prosseguir.
+			</h3>
+			</br>
+			<a href="http://portal.ifspguarulhos.edu.br/" onclick="confirmBox();return false">
+				Pop-up de confirmação
+			</a>
+			<h1>
+				EXEMPLO 3
+			</h1>
+			<h3>
+				Mostra na tela a data e hora em que a página foi aberta.
+			</h3>
+			</br>
+			<h2>
+				<script type="text/javascript">
+					document.write(Date());
+				</script>
+			</h2>
+		</main>
+
+		<footer id="javafooter">
+			<div class="links">
+				<p>
+					Sites
+				</p>
+				<ul>
+					<li class="js-mini">
+						<a href="https://www.javascript.com/" target="_blank">JavaScript</a>
+					</li>
+					<li class="ibama-mini">
+						<a href="https://www.ibama.gov.br/fauna-silvestre" target="_blank">Fauna</a>
+					</li>
+				</ul>
+			</div>
+			<div class="contato">
+				<p>
+					Contato
+				</p>
+				</br>
+				<ul>
+					<li class="gh-mini">
+						<a href="https://github.com/WesleyFerreir4" target="_blank">Github</a>
+					</li>
+					<li class="twitter-mini">
+						<a href="https://twitter.com/wesferoli1901" target="_blank">Twitter</a>
+					</li>
+				</ul>
+			</div>
+			<div class="info">
+				<ul>
+					<li>
+						Wesley Ferreira de Oliveira
+					</li>
+					<li>
+						Prontuário: 1960997
+					</li>
+					<li>
+						ADS - 1º Semestre
+					</li>
+					<li>
+						Projeto DWE
+					</li>
+				</p>
+			</div>
+		</footer>
+		<script src="../scripts/script.js" type="text/javascript">
+		</script>
+	</body>
+</html>

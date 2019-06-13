@@ -1,0 +1,486 @@
+*{margin: 0; padding: 0}
+
+body{
+	background: url("img/background2.png");
+	background-attachment: fixed;
+	size: 100%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.header{
+	padding: 1%;
+	margin: 0%;
+	text-align: center;
+	/*Visual*/
+	background: url(img/header.png);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	color: white;
+	text-shadow: 0px 0px 5px #4c3f39;
+}
+
+/*MENU HORIZONTAL*/
+.menu{
+	list-style: none;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	size: 100%;
+	/*Visual*/
+	background-color: #e6deca;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+.menu li{
+	display: inline-flex;
+	justify-content: center;
+}
+
+/*MENU HORIZONTAL: 'Botões' de link*/
+.menu li a{
+	padding: 10px 10px;
+	display: block;
+	/*Visual*/
+	color: black;
+	text-decoration: none;
+}
+ 
+.menu li a:hover{
+	background: #91754e; 
+	color: white; 
+	text-shadow: 0px 0px 5px white; 
+}
+
+/*MENU HORIZONTAL: Submenu*/
+.menu li ul{
+	position: absolute;
+	display: none;
+	top: 107px;
+	background-color: #e6deca;
+	border: 1px solid black;
+}
+
+/*SUBMENU: 'dropdown'*/
+.menu li:hover ul, .menu li.over ul{display: block;}
+
+.menu li ul li{
+	display: block; 
+	padding: inherit;
+}
+
+/*IMAGENS: Título*/
+
+.javalogo h1{
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	text-shadow: 0px 0px 5px #4c3f39;
+	text-align: center;
+}
+
+.faunasilvestre h1{
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	text-shadow: 0px 0px 5px #4c3f39;
+	text-align: center;
+}
+
+main a{
+	text-decoration: none;
+	margin: 0px;
+	margin-top: 50px;
+	padding: 10px;
+}
+
+/*IMAGENS*/
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0px;
+	text-align: center;
+	margin-top: 0%;
+}
+
+/*IMAGENS: Links*/
+.javalogo a{
+	display: inline-block;
+	width: 400px;
+}
+
+.faunasilvestre a{
+	display: inline-block;
+	width: 500px;
+}
+
+.javalogo img{
+	height: 370px;
+	width: 400px;
+	padding: 8px;
+	border: 1px solid #90815a;
+	background: #e6deca;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+.faunasilvestre img{
+	height: 370px;
+	width: 400px;
+	padding: 8px;
+	border: 1px solid #90815a;
+	background: #e6deca;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+/*IMAGENS: Descrição*/
+
+main p{
+	display: flex;
+	position: inherit;
+	text-align: justify;
+	padding-top:3%;
+	padding-left:7%;
+	padding-right:12%;
+	font-size: 20px;
+	color: black;
+	text-shadow: 0px 0px 2px black;	
+}
+
+
+
+/*FOOTER*/
+
+#footer{
+	padding: 2%;
+	margin-top: 5%;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	background: radial-gradient(ellipse, #c3aa88, #91754e);
+}
+
+#footer a{
+	color: white;
+	text-shadow: 1px 1px 3px black;
+	text-decoration: none;
+}
+
+.links{
+	display: grid;
+	grid-gap: 20px;
+	list-style-position: inside;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+
+.links p{
+	font-size: 30px;
+}
+
+.contato{
+	display: grid;
+	grid-gap: 20px;
+	list-style-position: inside;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+
+.contato p{
+	font-size: 30px;
+}
+
+/*FOOTER: Miniatura links*/
+
+.js-mini{
+	list-style-image: url('img/js-mini.png');
+}
+
+.ibama-mini{
+	list-style-image: url('img/ibama-mini.png');
+}
+
+.gh-mini{
+	list-style-image: url('img/gh-mini.png');
+}
+
+.twitter-mini{
+	list-style-image: url('img/twitter-mini.png');
+}
+
+.gmail-mini{
+	list-style-image: url('img/gmail-mini.png');
+}
+
+.contato{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.info ul{
+	list-style: none;
+	font-size: 20px;
+	padding-top: 5%;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+
+					/*JAVASCRIPT*/
+
+.javabody{
+	background-image: url('img/background.jpg');
+}
+
+.javaheader{
+	padding: 1%;
+	margin: 0%;
+	text-align: center;
+	/*Visual*/
+	background: url(img/javaheader.png);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	color: white;
+	text-shadow: 0px 0px 5px #4c3f39;
+}
+
+/*MENU HORIZONTAL*/
+.javamenu{
+	list-style: none;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	size: 100%;
+	/*Visual*/
+	background-color: lightgrey;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+.javamenu li{
+	display: inline-flex;
+	justify-content: center;
+}
+
+/*MENU HORIZONTAL: 'Botões' de link*/
+.javamenu li a{
+	padding: 10px 10px;
+	display: block;
+	/*Visual*/
+	color: black;
+	text-decoration: none;
+}
+ 
+.javamenu li a:hover{
+	background: grey; 
+	color: white; 
+	text-shadow: 0px 0px 5px white; 
+}
+
+/*MENU HORIZONTAL: Submenu*/
+.javamenu li ul{
+	position: absolute;
+	display: none;
+	top: 107px;
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+
+/*SUBMENU: 'dropdown'*/
+.javamenu li:hover ul, .javamenu li.over ul{display: block;}
+
+.javamenu li ul li{
+	display: block; 
+	padding: inherit;
+}
+
+#javapag{
+	display: block;
+	justify-content: center;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#javapag h1{
+	justify-content: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #f7f7f7;
+	text-shadow: 2px 2px 5px black;
+	font-size: 30px;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+#javapag iframe{
+	padding: 8px;
+	border: 1px solid #90815a;
+	background: #333;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+
+#javafooter{
+	padding: 2%;
+	margin-top: 5%;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	background: radial-gradient(ellipse, lightgrey, grey);
+}
+
+#javafooter a{
+	color: white;
+	text-shadow: 1px 1px 3px black;
+	text-decoration: none;
+}
+
+					/*JAVASCRIPT - DERIVADOS*/
+
+#javapag img{
+	width: 500px;
+	height: 150px;
+}
+
+					/*JAVASCRIPT - PRATICANDO*/
+
+#javapag a{
+	font-size: 20px;
+	color: black;
+	text-shadow: 1px 1px grey;
+	text-decoration: none;
+	border: 2px dashed #333;
+}
+
+#javapag h2{
+	display: block;
+	font-size: 20px;
+	color: black;
+	justify-content: center;
+	text-shadow: 1px 1px grey;
+	border: 2px dashed #333;
+}
+
+#javapag h3{
+	display: block;
+	justify-content: center;
+}
+
+#javapag a:hover{
+	background: #333;
+	color: white;
+	text-shadow: 0px 0px 5px white;
+}
+
+#javapag h2:hover{
+	background: #333;
+	color: white;
+	text-shadow: 0px 0px 5px white;
+}
+
+					/*FAUNA SILVESTRE*/
+
+#faunabody{
+	background: url(img/background3.png);
+	background-attachment: fixed;
+}
+
+.faunaheader{
+	padding: 1%;
+	margin: 0%;
+	text-align: center;
+	/*Visual*/
+	background: url(img/faunaheader.png);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}
+
+/*MENU HORIZONTAL*/
+.faunamenu{
+	list-style: none;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	size: 100%;
+	/*Visual*/
+	background-color: #a2d62d;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+
+.faunamenu li{
+	display: inline-flex;
+	justify-content: center;
+}
+
+/*MENU HORIZONTAL: 'Botões' de link*/
+.faunamenu li a{
+	padding: 10px 10px;
+	display: block;
+	/*Visual*/
+	color: black;
+	text-decoration: none;
+}
+ 
+.faunamenu li a:hover{
+	background: #337418; 
+	color: white; 
+	text-shadow: 0px 0px 5px white; 
+}
+
+/*MENU HORIZONTAL: Submenu*/
+.faunamenu li ul{
+	position: absolute;
+	display: none;
+	top: 107px;
+	background-color: #a2d62d;
+	border: 1px solid black;
+}
+
+/*SUBMENU: 'dropdown'*/
+.faunamenu li:hover ul, .faunamenu li.over ul{display: block;}
+
+.faunamenu li ul li{
+	display: block; 
+	padding: inherit;
+}
+
+#faunapag{
+	display: block;
+	justify-content: center;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#faunapag h1{
+	justify-content: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #b1ff00;
+	text-shadow: 1px 1px 5px black;
+	font-size: 30px;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+#faunapag img{
+	width: 500px;
+	height: 350px;
+}
+
+#faunafooter{
+	padding: 2%;
+	margin-top: 5%;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	background: radial-gradient(ellipse, #a2d62d, #337418);
+}
+
+#faunafooter a{
+	color: white;
+	text-shadow: 1px 1px 3px black;
+	text-decoration: none;
+}
